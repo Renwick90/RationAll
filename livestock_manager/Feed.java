@@ -10,11 +10,11 @@ public Feed(int type, int cost){
   this.cost = cost; 
 }
 
-public String get type(){
+public String getType(){
   return this.type;
 }
 
-public int get cost(){
+public int getCost(){
   return this.cost;
 }
 }

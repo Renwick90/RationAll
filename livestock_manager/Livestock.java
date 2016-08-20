@@ -13,15 +13,15 @@ public Livestock(int head, int weight, int age){
   this.age = age;
 }
 
-public int get head(){
+public int getHead(){
   return this.head;
 }
 
-public int get weight(){
+public int getWeight(){
   return this.weight;
 }
 
-public int get age(){
+public int getAge(){
   return this.age;
 }
 }
