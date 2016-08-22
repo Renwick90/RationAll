@@ -5,7 +5,7 @@ public abstract class Feed{
 String type;
 int cost;
 
-public Feed(int type, int cost){
+public Feed(String type, int cost){
   this.type = type;
   this.cost = cost; 
 }

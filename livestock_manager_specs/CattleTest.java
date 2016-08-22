@@ -3,7 +3,7 @@ import org.junit.*;
 import livestock_manager.*;
 
 public class CattleTest{
-  Cattle catle;
+  Cattle cattle;
 
   @Before
   public void before(){
@@ -13,5 +13,15 @@ public class CattleTest{
   @Test
   public void hasHead(){
     assertEquals(100, cattle.getHead());
+  }
+
+  @Test
+  public void hasWeight(){
+    assertEquals(120, cattle.getWeight());
+  }
+
+  @Test
+  public void hasAge(){
+    assertEquals(5, cattle.getAge());
   }
 }
