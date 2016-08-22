@@ -21,7 +21,7 @@ public class CattleTest{
   }
 
   @Test
-  public void hasAge(){
-    assertEquals(5, cattle.getAge());
+  public void hasRation(){
+    assertEquals(5, cattle.getRation());
   }
 }

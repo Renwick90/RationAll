@@ -21,7 +21,7 @@ public class SheepTest{
   }
 
   @Test
-  public void hasAge(){
-    assertEquals(3, sheep.getAge());
+  public void haRatione(){
+    assertEquals(3, sheep.getRation());
   }
 }

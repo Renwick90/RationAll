@@ -4,13 +4,13 @@ public abstract class Livestock{
 
 int head;
 int weight;
-int age;
+int ration;
 
 
-public Livestock(int head, int weight, int age){
+public Livestock(int head, int weight, int ration){
   this.head = head;
   this.weight = weight;
-  this.age = age;
+  this.ration = ration;
 }
 
 public int getHead(){
@@ -21,7 +21,7 @@ public int getWeight(){
   return this.weight;
 }
 
-public int getAge(){
-  return this.age;
+public int getRation(){
+  return this.ration;
 }
 }
