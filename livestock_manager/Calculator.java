@@ -20,6 +20,7 @@ public class Calculator{
   }
  
   public int getCost(){
-    return (this.cost * (this.ration*this.head)) * this.days;
+    return (this.cost * getRation()) * this.days;
   }
+
 }
